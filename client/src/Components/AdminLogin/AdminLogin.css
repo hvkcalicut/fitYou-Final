@@ -1,0 +1,19 @@
+
+
+.adminlogin-Main {
+    color: white;
+    position: relative;
+}
+
+.adminlogin-Main img {
+    width: 750px;
+    height: 520px;
+    position: absolute;
+ 
+
+}
+
+.adminlogin-img1 {
+    left:300px;
+    bottom: 50px;
+}

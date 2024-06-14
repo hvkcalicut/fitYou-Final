@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif, 'Roboto', sans-serif;
+  color: #e6e6e6;
+  background-color: #1E1C1C;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+/* .btn{
+  background-color: #ED533B;
+  color: whitesmoke !important;
+  border-color: black;
+
+
+}
+.btn:hover {
+
+  background-color: whitesmoke;
+  color: #ED533B !important;
+  border-color: black;
+} */
+.btn-primary{
+  background-color: #ED533B;
+  color: whitesmoke !important;
+  border-color: black;
+
+
+}
+.btn-primary:hover {
+
+  background-color: whitesmoke;
+  color: #ED533B !important;
+  border-color: black;
+}
+
+
+.inputColor:checked {
+  background-color: #ED533B;
+  border-color: #ED533B;
+}
+
+.CreatSingup-textcolour {
+  color: #ED533B
+}
+.OTP-textcolour {
+  color: #f5f2f2
+}
+.card {
+  background-color: #0000009c !important;
+
+}
+.loader{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
