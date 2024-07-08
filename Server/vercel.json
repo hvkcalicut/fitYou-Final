@@ -1,18 +1,13 @@
 {
     "version": 2,
     "builds": [
-      { "src": "/server/**", "use": "@vercel/node" },
-      { "src": "/client/**", "use": "@vercel/static-build" }
+      { "src": "**", "use": "@vercel/node" }
     ],
     "routes": [
       {
         "src": "/api/(.*)",
-        "dest": "/server/api/$1",
+        "dest": "/api/$1",
         "methods": ["GET", "POST", "PUT", "PATCH", "DELETE"]
-      },
-      {
-        "src": "/(.*)",
-        "dest": "/client/$1"
       }
     ]
   }
